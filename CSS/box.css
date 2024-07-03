@@ -1,0 +1,28 @@
+.box-model{
+    height: 100px;
+    width: 250px;
+    padding: 50px 20px 10px 33px;
+
+    border: 10px outset royalblue;
+
+    border-top: 20px dotted red;
+}
+
+.content-box{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    background-color: lightgray;
+    border: 2px solid black;
+    box-sizing: content-box;
+
+}
+
+.border-box{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    background-color: lightgray;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
