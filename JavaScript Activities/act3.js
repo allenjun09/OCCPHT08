@@ -2,7 +2,7 @@ console.log("Activity 3");
 let secretNumber = Math.floor(Math.random() * 10) + 1;
 let attempts = 0;
 let guessedNumber;
-console.log("The secret number is",secretNumber);
+// console.log("The secret number is",secretNumber);
 
 do {
     attempts++;
